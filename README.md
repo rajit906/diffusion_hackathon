@@ -1,6 +1,6 @@
 # Hackathon starter-kit
 
-Zero-shot Diffusion based image restoration.
+2nd Place at the PhD Hackathon workshop in Generative Modeling (Zero-Shot Diffusion Based Image Restoration)
 
 
 This repository is an implementation of the algorithm we pioneered, which involves hybridizing the **DPS** and **DMPS** algorithms. The **DMPS algorithm** offers speedups of 3x but relies on the uninformative prior assumption, which is unrealistic since most images are not proportional to Gaussian noise (Please refer to the [poster](https://drive.google.com/file/d/1-6qPfdAmrMBOs5XRS69fjnb-xAQhaRt9/view) for more details). We hybridized the DMPS algorithm with DPS by treating them as "exploration vs. exploitation" methods. This resulted in a speedup of the method (1-3x) in addition to enhanced robustness. 
