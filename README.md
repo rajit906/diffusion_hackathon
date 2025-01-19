@@ -4,6 +4,7 @@
 This repository is an implementation of the algorithm we pioneered, which involves hybridizing the **DPS** and **DMPS** algorithms. The **DMPS algorithm** offers speedups of 3x but relies on the uninformative prior assumption, which is unrealistic since most images are not proportional to Gaussian noise (Please refer to the [poster](https://drive.google.com/file/d/1-6qPfdAmrMBOs5XRS69fjnb-xAQhaRt9/view) for more details). We hybridized the DMPS algorithm with DPS by treating them as "exploration vs. exploitation" methods. This resulted in a speedup of the method (1-3x) in addition to enhanced robustness. 
 Please refer to our [slides](https://drive.google.com/file/d/1We39vRCalNYvez61BQvYhVi2bsy14YMv/view) and [poster](https://drive.google.com/file/d/1-6qPfdAmrMBOs5XRS69fjnb-xAQhaRt9/view) for the full results and comparisons.
 
+Team: Rajit Rajpal, Marcos Obando, Dolly Chen, Bernardin Tamo Amogou
 
 ## Installation
 
